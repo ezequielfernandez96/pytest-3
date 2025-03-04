@@ -12,8 +12,9 @@ def test_restar():
     
 def test_multiplicar():
     op = FuncionesExtra()
-    assert op.multiplicar(5, 2) == 10
+    assert op.multiplicar(3, 2) == 6
     
 def test_dividir():
     op = FuncionesExtra()
     assert op.dividir(4, 2) == 2
+

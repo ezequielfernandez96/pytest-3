@@ -9,5 +9,7 @@ class FuncionesExtra(Operaciones):
     
     def dividir(self,a, b):
         if b == 0:
-            return "no se puede didivir por cero"
+            return "error: no se puede dividir por cero"
         return a / b
+    
+    
